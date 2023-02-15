@@ -46,6 +46,11 @@
     gap: 1rem;
  }
 
+ .buttons{
+    display: flex;
+    
+ }
+
  .btn{
     padding: 10px 20px;
     font-size: 18px;
@@ -54,6 +59,7 @@
     cursor: pointer;
     border: 1ps solid #ccc;
     transition: all 0.2s ease-in-out;
+    margin-left: 10px;
  }
  .btn:hover{
     transform: scale(1.1)
